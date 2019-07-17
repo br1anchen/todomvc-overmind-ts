@@ -8,6 +8,7 @@
     "classnames": "^2.2.6",
     "overmind": "^19.0.1",
     "overmind-react": "^20.0.1",
+    "page": "^1.11.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "^3.0.1",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@types/classnames": "^2.2.9",
+    "@types/page": "^1.8.0",
     "@types/react": "^16.8.6",
     "@types/react-dom": "^16.8.4",
     "@typescript-eslint/eslint-plugin": "^1.12.0",

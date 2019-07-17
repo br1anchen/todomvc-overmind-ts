@@ -70,3 +70,15 @@ export const editingTodo: Action<TodoID> = ({ state }, targetId) => {
 export const cancelEditingTodo: Action = ({ state }) => {
   state.editingTodoId = undefined;
 };
+
+export const showAllPage: Action = ({ state }) => {
+  state.filter = 'all';
+};
+
+export const showActivePage: Action = ({ state }) => {
+  state.filter = 'active';
+};
+
+export const showCompletedPage: Action = ({ state }) => {
+  state.filter = 'completed';
+};
