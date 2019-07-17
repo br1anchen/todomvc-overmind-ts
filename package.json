@@ -2,10 +2,29 @@
   "name": "todomvc-overmind-ts",
   "version": "0.1.0",
   "private": true,
+  "main": "src/index.tsx",
   "dependencies": {
+    "@types/styled-components": "^4.1.16",
+    "classnames": "^2.2.6",
+    "overmind": "^19.0.1",
+    "overmind-react": "^20.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "^3.0.1",
+    "todomvc-app-css": "^2.2.0",
+    "todomvc-common": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.9",
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.4",
+    "@typescript-eslint/eslint-plugin": "^1.12.0",
+    "@typescript-eslint/parser": "^1.12.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
